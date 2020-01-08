@@ -2,7 +2,7 @@
 
 ### Instruction
 
-Create a react app that will accept a username and email address.
+- Create a react app that will accept a username and email address.
 
 ##### Wireframe:
 
@@ -10,12 +10,16 @@ Create a react app that will accept a username and email address.
 
 ##### Core:
 
-As the user types the username and email should be displayed below a avatar picture on the right
+- As the user types the username and email should be displayed below a avatar picture on the right
 
-##### Advanced:
+##### Advanced (Updated instruction - different from wireframe):
 
-Add extra event listeners to the form so that onHover some extra information appears
+- Add extra event listeners to the form so that some extra information appears when a user starts to type etc
 
-##### Beast:
+##### Beast (Updated instruction - different from wireframe):
 
-Add a button to upload an image.
+- Please refactor the above challenge to lift state so that the left and right components are two different components.
+
+##### Final product:
+
+![Final product](./public/finalproduct.png)
