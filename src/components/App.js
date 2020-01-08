@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Container, Row } from "react-bootstrap";
 
-//Lift the state (1): Separate child components into separate files & render them in parant (App.js)
+//Lift the state (1): Separate child components into separate files & render them in parent (App.js)
 import Input from "./Input";
 import Output from "./Output";
 
 class App extends Component {
   //Lift the state (2): move 'state' from child to parent
-  state = { username: this.props.username, email: this.props.email };
+  state = { username: "", email: "" };
 
   //Lift the state (3): move event listeners from child to parent
   onUsernameChange = event => {

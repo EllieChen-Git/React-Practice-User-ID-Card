@@ -9,7 +9,10 @@ class Output extends Component {
       <Col>
         <Card style={{ width: "18rem", height: "30rem" }}>
           <Card.Title className="p-2">ID Card</Card.Title>
-          <Card.Img variant="top" src="logo512.png" />
+          <Card.Img
+            variant="top"
+            src={`https://robohash.org/${username}.png?set=set4&size=200x200`}
+          />
           <Card.Body>
             <Card.Text>Username:{username}</Card.Text>
             <Card.Text>Email:{email}</Card.Text>
